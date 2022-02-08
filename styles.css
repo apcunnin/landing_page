@@ -4,6 +4,8 @@ body {
     margin: 0px;
 }
 
+/* below is for the top header menu */
+
 .header {
     background-color: #1F2937;
     color: #f9faf8;
@@ -27,6 +29,8 @@ body {
     gap: 20px;
 }
 
+/* below is for the text and subtext below the top menu */
+
 .container-1 {
     display: flex;
     flex-direction: row;
@@ -48,4 +52,72 @@ button {
     border: 0;
     padding: 10px 25px 10px 25px;
     font-size: 16px;
+}
+
+/* "container-2" below is for the second container area with the blue boxes */
+
+.container-2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* "container-3" grey area with the quote below */
+
+.container-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.subtext3 {
+    font-size: 36px;
+    font-style: italic;
+    max-width: 800px;
+}
+
+.subtext3-1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 500px;
+}
+
+/* below is for "container-4" - blue call to action area */
+
+.container-4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.subcont4 {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 30px 200px 30px 200px;
+}
+
+/* below is for "container-5" very bottom copyright area */
+
+.container-5 {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
